@@ -27,12 +27,12 @@ body > main{
     text-align: center;
     background-color: hsl(0, 0%, 100%);
     border-radius:20px;
-    box-shadow:12px 0 22px hsla(0, 0%, 0%, 5%);
+    box-shadow:20px 0 28px hsla(0, 0%, 0%, 5%);
 }
 .card > *{
     padding:0;
     margin:0;
-    margin-bottom:1.3rem;
+    margin-bottom:1.45rem;
 }
 .card > img{
     max-width:100%;
@@ -43,6 +43,7 @@ body > main{
     font-weight: 700;
     color: hsl(218, 44%, 22%);
     font-size:1.4rem;
+    margin-bottom: 1rem;
     max-width:calc(100% - 32px);
 }
 .card > p{
