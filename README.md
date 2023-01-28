@@ -1,1 +1,1 @@
-# frontendmentor-solutions
+# My frontendmentor.io challenges solutions.
