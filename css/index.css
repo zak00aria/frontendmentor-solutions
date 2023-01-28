@@ -1,0 +1,54 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+}
+body > main{
+    width:100%;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+}
+.card{
+    box-sizing: border-box;
+    width:calc(100% - 55px);
+    max-width:320px;
+    margin:0 auto;
+    background:#f00;
+    padding:16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius:20px;
+    box-shadow:12px 0 22px hsla(0, 0%, 0%, 5%);
+}
+.card > *{
+    padding:0;
+    margin:0;
+    margin-bottom:1.3rem;
+}
+.card > img{
+    max-width:100%;
+    border-radius: 12px;
+}
+.card > h3{
+    display: block;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    font-size:1.4rem;
+    max-width:calc(100% - 32px);
+}
+.card > p{
+    font-size:15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    max-width:calc(100% - 32px);
+}
+
