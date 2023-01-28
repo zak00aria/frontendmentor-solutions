@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./css/index.css">
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,14 +15,49 @@
   </style>
 </head>
 <body>
-
-  Features
-  Company
-  Careers
-  About
-
-  Login
-  Register
+  <nav>
+    <div class="nav-container">
+      <a href="/" class="logo"><img src="./images/logo.svg" alt="snap"></a>
+      <div class="nav-list">
+        <div class="dropdown closed">
+          <span>Features</span>
+          <div class="drop-menu">
+            <a href="#">Todo List</a>
+            <a href="#">Calender</a>
+            <a href="#">Reminders</a>
+            <a href="#">Planning</a>
+          </div>
+        </div>
+        <div class="dropdown closed">
+          <span>Company</span>
+          <div class="drop-menu">
+            <a href="#">History</a>
+            <a href="#">Our Team</a>
+            <a href="#">Blog</a>
+          </div>
+        </div>
+        <a href="#" class="link">Careers</a>
+        <a href="#" class="link">About</a>
+      </div>
+      <div class="user-nav-list">
+        <a href="" class="login">Login</a>
+        <a href="" class="register">Register</a>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section>
+      <div class="container">
+        <div>
+          <div></div>
+          <img src="./images/image-hero-desktop.png" alt="" class="only-desktop">
+          <img src="./images/image-hero-mobile.png" alt="" class="only-mobile">
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  
 
   Make remote work
 
@@ -31,9 +66,11 @@
 
   Learn more
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <footer class="attribution">
+    <div class="container">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.fiverr.com/zak00aria/convert-psd-or-figma-sketch-or-xd-design-into-html5-and-css3" target="_blank">zak00aria</a>.
+    </div>
+  </footer>
 </body>
 </html>
