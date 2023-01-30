@@ -7,14 +7,17 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/top-nav.css">
+  <link rel="stylesheet" href="./css/hero.css">
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution { line-height:20px;color:#ccc;background-color:#000;height:20px;font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(176, 60%, 50%); }
   </style>
 </head>
+
 <body>
   <nav>
     <div class="nav-container">
@@ -46,21 +49,27 @@
       </div>
     </div>
   </nav>
+  <div style="display:none;bottom:0;position:fixed;width:1440px;height:10px;background:#f00"></div>
+  <div style="display:none;bottom:0;position:fixed;width:375px;height:10px;background:#0f0"></div>
   <main>
     <section class="hero">
       <div class="container">
-        <div>
           <div>
             <h1>Make remote work</h1>
             <p>
               Get your team in sync, no matter your location. Streamline processes, 
               create team rituals, and watch productivity soar.
             </p>
-            <a href="">Learn more</a>
+            <a href="#" class="learn-more-btn">Learn more</a>
+            <div class="clients">
+              <img src="./images/client-databiz.svg" alt="">
+              <img src="./images/client-audiophile.svg" alt="">
+              <img src="./images/client-meet.svg" alt="">
+              <img src="./images/client-maker.svg" alt="">
+            </div>
           </div>
           <img src="./images/image-hero-desktop.png" alt="" class="only-desktop">
           <img src="./images/image-hero-mobile.png" alt="" class="only-mobile">
-        </div>
       </div>
     </section>
   </main>

@@ -1,0 +1,77 @@
+.hero > .container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.hero > .container > div{
+    width:480px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.hero > .container > *{
+    margin:0;
+}
+.hero > .container > div > *{
+    margin:0;
+}
+.hero > .container > div > h1{
+    font-size: 3rem;
+    display: inline-block;
+    max-width:11ch;
+    line-height: 1;
+    margin-bottom:50px;
+    color:hsl(0, 0%, 8%);
+}
+@media (min-width:1440px){
+    .hero > .container > div > h1{
+        font-size: 4.4rem;
+    }
+}
+.hero > .container > div > p{
+    font-size: 1.125rem;
+    line-height: 1.4;
+    margin-bottom:50px;
+    color:hsl(0, 0%, 41%);
+}
+.hero > .container > div > a.learn-more-btn,
+.hero > .container > div > a.learn-more-btn:hover,
+.hero > .container > div > a.learn-more-btn:active,
+.hero > .container > div > a.learn-more-btn:visited{
+    text-decoration: none;
+    width:161px;
+    height:54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid hsl(0, 0%, 8%);
+    background-color: hsl(0, 0%, 8%);
+    color:hsl(0, 0%, 100%);
+    outline: none;
+    border-radius: 16px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom:100px;
+}
+.hero > .container > div > a.learn-more-btn:hover{
+    color:hsl(0, 0%, 8%);
+    background-color: transparent;
+}
+.hero > .container > div > .clients{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+.hero > .container > div > .clients>img{
+    margin:0;
+}
+.hero > .container > div > .clients>img:not(:last-child){
+    margin-right:40px;
+}
+.hero > .container > img{
+    width:calc(50% - 40px);
+    max-width:480px;
+}
