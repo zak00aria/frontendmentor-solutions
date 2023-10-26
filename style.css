@@ -1,0 +1,147 @@
+*,*::before,*::after{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html{
+  font-size:16px;
+}
+body{
+  min-height:100vh;
+  background-color: hsl(257, 40%, 49%);
+  background-image:url(./images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size:100vw auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+}
+h1{
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+}
+.container{
+  max-width:80%;
+  min-width:300px;
+  margin:0 auto;
+}
+.header,section,footer{
+  padding:1.8rem 0;
+}
+.header #logo{
+  height:35px;
+}
+section .container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+section > .container > img{
+  width:100%;
+}
+section .content{
+  margin-top:1rem;
+  text-align:center;
+}
+section .content > h1{
+  font-size:1.2rem;
+  margin:1.5em auto .5em;
+  max-width:20ch;
+  color:#fff;
+}
+section .content p{
+  max-width:40ch;
+  font-size:.9rem;
+  color:#fff;
+  margin:1rem 0;
+}
+section .btn{
+  display:inline-block;
+  background:#fff;
+  padding:.8em 6em;
+  border-radius:4em;
+  color:hsl(257, 40%, 49%);
+  text-decoration: none;
+  margin:.5rem 0;
+  font-size:.9rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,.3);
+}
+section .btn:hover{
+  background:hsl(300, 69%, 71%);
+  color:#fff;
+}
+footer{
+  text-align:center;
+  position:relative;
+}
+footer ul{
+  list-style: none;
+}
+footer li{
+  display:inline-block;
+  margin:0 .3rem;
+}
+footer .icomoon{
+  text-decoration: none;
+  color:#fff;
+  border:solid 1px;
+  font-size:1.2rem;
+  border-radius:50%;
+  padding: .4em;
+  cursor:pointer;
+}
+footer .icomoon:hover{
+  color:hsl(300, 69%, 71%);
+}
+@media (min-width:800px){
+  body{
+    background-image:url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size:auto 100%;
+  }
+  .header #logo{
+    height:50px;
+  }
+  .container{
+    max-width:1340px;
+  }
+  section .container{
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+  }
+  section > .container > img{
+    max-width:60%;
+  }
+  section .content{
+    margin-left:3.5rem;
+    text-align: left;
+  }
+  section .content > h1{
+    font-size:2rem;
+    margin:1em 0 .5em;
+    max-width:20ch;
+  }
+  section .content p{
+    max-width:50ch;
+    font-size:1rem;
+  }
+  section .btn{
+    padding:.8em 4em;
+    border-radius:4em;
+    margin:.5rem 0;
+    font-size:1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+  }
+  footer{
+    text-align:right;
+  }
+  footer .icomoon{
+    font-size:1.2rem;
+    cursor:pointer;
+  }
+}
