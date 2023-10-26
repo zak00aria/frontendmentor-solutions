@@ -20,7 +20,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Live Site URL: [live site URL](https://zak00aria.github.io/Frontend-Mentor-Profile-card-component-solution/index.html)
+- Live Site URL: [live site URL](https://lively-centaur-a54451.netlify.app/)
 
 ## My process
 
