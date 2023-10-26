@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [live site URL](https://zak00aria.github.io/Frontend-Mentor-Huddle-landing-page-with-single-introductory-section-solution/index.html)
+- Live Site URL: [live site URL](https://gorgeous-choux-e8b470.netlify.app/)
 
 ## My process
 
