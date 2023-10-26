@@ -20,4 +20,4 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-solution-using-flexbox-ALlfAM47f](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-solution-using-flexbox-ALlfAM47f)
-- Live Site URL: [https://zak00aria.github.io/frontentmentor_challenge--huddle-landing-page-with-curved-sections-master/](https://zak00aria.github.io/frontentmentor_challenge--huddle-landing-page-with-curved-sections-master/)
+- Live Site URL: [https://stalwart-pegasus-aefd01.netlify.app/](https://stalwart-pegasus-aefd01.netlify.app/)
