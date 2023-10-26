@@ -19,4 +19,4 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://zak00aria.github.io/frontendmentor-chalenges---stats-preview-card-component-main/](https://zak00aria.github.io/frontendmentor-chalenges---stats-preview-card-component-main/)
+- Live Site URL: [https://genuine-zabaione-a7e80b.netlify.app/](https://genuine-zabaione-a7e80b.netlify.app/)
